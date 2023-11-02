@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #363636;
+}
+
+.cm-editor {
+    outline: none !important;
+}
+
+.cm-activeLine,
+.cm-activeLineGutter {
+  background-color: #1f2228c6 !important;
+}
+
+.cm-gutters {
+  background-color: #2b2b2b00 !important;
+  border: none !important;
+}
